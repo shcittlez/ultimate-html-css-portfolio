@@ -97,7 +97,7 @@
             </div>
             <div class="experience-contents">
                 <div class="experience-card">
-                    <p class="tenure">Summer 2023</p>
+                    <p class="tenure">Summer 2022</p>
                     <div class="card-column">
                     <a href="https://www.ars.usda.gov/midwest-area/ames/cicgru/" target="_blank">
                         <h3 class="anchor-text card-header">Biological Data Scientist · United States Department of Agriculture <i class="fa-solid fa-arrow-right anchor-icon"></i> </h3>
@@ -160,7 +160,15 @@
                 </div>
             </div>
         </div>
-        <a href="public/sam-resume.pdf" target="_blank" class="anchor-text"><p>View Full Resume <i class="fa-solid fa-arrow-right anchor-icon"></i></p></a>
+        <div class="dropdown">
+  <button class="resume-btn">View Resume ▾</button>
+  <div class="dropdown-content">
+    <a href="/public/CLOUSE_CV_EN.pdf" target="_blank">English</a>
+    <a href="/public/CLOUSE_CV_FR.pdf" target="_blank">Français</a>
+  </div>
+</div>
+
+</div>
         </section>
         <section id="projects">
             <div class="sticky-header">
@@ -195,6 +203,41 @@
                     </div>  
                 </div>
             </div>
+         <div class="project-card">
+    <div class="project-image-container">
+        <video autoplay muted loop playsinline style="width: 100%; border-radius: 0.5rem;">
+            <source src="/public/spacebar-counter-vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="card-column">
+        <a href="https://github.com/shcittlez/spacebar-counter" target="_blank">
+            <h3 class="anchor-text card-header">
+                Spacebar Counter App
+                <i class="fa-solid fa-arrow-right anchor-icon"></i>
+            </h3>
+        </a>
+        <p>
+            A lightweight Python + Tkinter desktop app that tracks spacebar presses in real time.  
+            Originally built to help our team count fungal spores during lab work, it’s especially handy when 
+            working remotely or at office desks without dedicated lab equipment.  
+            Features include global hotkeys, real-time counts, history tracking, and a minimal, responsive GUI.
+        </p>
+
+        <a href="https://github.com/shcittlez/spacebar-counter" target="_blank" class="anchor-text project-stat-link">
+            <i class="fa-solid fa-star"></i>
+            <p>98</p>
+        </a>
+
+        <div class="tag-container">
+            <div class="tag"><p>Python</p></div>
+            <div class="tag"><p>Tkinter GUI</p></div>
+            <div class="tag"><p>Keyboard API</p></div>
+            <div class="tag"><p>Lab Tools</p></div>
+            <div class="tag"><p>Utility App</p></div>
+        </div>
+    </div>
+</div>   
             <div class="project-card">
     <div class="project-image-container">
         <video autoplay muted loop playsinline style="width: 100%; border-radius: 0.5rem;">
@@ -226,38 +269,42 @@
     </div>
 </div>
                 <div class="project-card">
-                    <div class="project-image-container">
-                        <img src="/public/whipping-up-googlez.png" alt="roadmap thumnail"/>
-                    </div>
-                    <div class="card-column">
-                    <a href="https://whipping-up-googlez.netlify.app/" target="_blank">
-                        <h3 class="anchor-text card-header"> Google Homepage with HTML/CSS <i class="fa-solid fa-arrow-right anchor-icon"></i></h3>
-                    </a>
-                    <p>Go check out the sleek functionality of each individual button. Also, don't actually try to search for anything, it is a disply piece only.</p>
-                    <a href="https://github.com/shcittlez" target="_blank" class="anchor-text project-stat-link"> <i class="fa-solid fa-star"> </i> <p>635</p></a>
-                    <div class="tag-container">
-                        <div class="tag">
-                            <p>Trustworthiness</p>
-                        </div>
-                        <div class="tag">
-                            <p>Respect</p>
-                        </div>
-                        <div class="tag">
-                            <p>Responsibility</p>
-                        </div>
-                        <div class="tag">
-                            <p>Fairness</p>
-                        </div>
-                        <div class="tag">
-                            <p>Caring</p>
-                        </div>
-                        <div class="tag">
-                            <p>Citizenship</p>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1&ab_channel=RickAstley" target="_blank" class="project-archive-link"><p>View Full Project Archive <span class="right-arrow">&rarr;</span></p></a>
+    <div class="project-image-container">
+        <video autoplay muted loop playsinline style="width: 100%; border-radius: 0.5rem;">
+            <source src="/public/bioblaster-vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="card-column">
+        <a href="https://github.com/shcittlez/bio-blaster-tool" target="_blank">
+            <h3 class="anchor-text card-header">
+                BioBlaster DNA Analysis Tool
+                <i class="fa-solid fa-arrow-right anchor-icon"></i>
+            </h3>
+        </a>
+        <p>
+            BioBlaster is a custom-built desktop application that automates DNA sequence analysis for our R&D team.  
+            It parses batch `.seq` files, integrates directly with NCBI BLAST, and generates annotated Excel reports 
+            with top hits, alignment scores, and quality metrics.  
+            By streamlining the identification of isolated strains of mycorrhizal fungi, this tool significantly reduces 
+            manual processing time and accelerates the development of our biobank.
+        </p>
+
+        <a href="https://github.com/shcittlez/bio-blaster-tool" target="_blank" class="anchor-text project-stat-link">
+            <i class="fa-solid fa-star"> </i>
+            <p>142</p>
+        </a>
+
+        <div class="tag-container">
+            <div class="tag"><p>Python</p></div>
+            <div class="tag"><p>Tkinter GUI</p></div>
+            <div class="tag"><p>NCBI BLAST API</p></div>
+            <div class="tag"><p>Excel Automation</p></div>
+            <div class="tag"><p>Bioinformatics</p></div>
+        </div>
+    </div>
+</div>
+            <a href="https://github.com/shcittlez?tab=repositories" target="_blank" class="project-archive-link"><p>View Full Project Archive <span class="right-arrow">&rarr;</span></p></a>
         </section>
     </main>  
     <footer>

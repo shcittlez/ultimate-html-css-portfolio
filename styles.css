@@ -448,3 +448,58 @@ footer p {
         width: 100%;
     }
 }
+
+/* === Resume Dropdown Styles === */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.resume-btn {
+    background-color: var(--background-accent);
+    color: var(--color-highlght);
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Hover effect button style */
+.resume-btn:hover {
+    background-color: #1b2541;
+    border-color: var(--color-accent);
+}
+
+/* Dropdown menu content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1e293b;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 0;
+    border-radius: 0.5rem;
+    min-width: 180px;
+    z-index: 100;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+    color: var(--color-highlght);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--background-accent);
+    color: var(--color-accent);
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
